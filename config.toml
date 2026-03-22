@@ -1,0 +1,183 @@
+baseURL = "https://3dprintplastic.com/"
+languageCode = "en-us"
+title = "3D Print Plastic"
+theme = "printwire"
+
+[params]
+tagline       = "Engineering polymer 3D printing — PEEK, Ultem, nylon, and high-performance plastics for functional prototypes, tooling, and end-use plastic components."
+description   = "3D Print Plastic covers additive manufacturing of engineering polymers — from FDM PEEK and Ultem for aerospace to SLS nylon for production parts, PA-CF for structural applications, and flexible TPU."
+keywords      = "plastic 3D printing, PEEK 3D print, Ultem AM, engineering polymer printing, nylon 3D print, PA12 SLS, high performance plastic AM, polymer additive manufacturing"
+logoEmoji     = "🧪"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#6366f1"
+colorPrimaryDark  = "#4f46e5"
+colorPrimaryLight = "#818cf8"
+colorBgDark       = "#040310"
+colorBgSection    = "#060518"
+colorBgCard       = "#0a0822"
+colorBgCardHover  = "#0e0c2e"
+
+fontPrimary   = "Inter"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=1920&q=80"]
+
+heroEyebrow  = "Engineering Polymer AM"
+heroTitle    = "3D Print <em>Plastic</em>"
+heroSubtitle = "Engineering polymer 3D printing — PEEK, Ultem, nylon, and high-performance plastics for functional prototypes, tooling, and end-use plastic components."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=1920&q=80"
+
+overviewTitle   = "High-Performance Polymer Parts by AM"
+overviewText    = "PEEK at 250°C service temperature. Ultem 9085 for FAA-certified interior panels. PA-CF for structural stiffness. Engineering polymer AM delivers certified functional parts in 48 hours."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Print Plastic Services"
+servicesSubtitle = "Engineering polymer 3D printing — PEEK, Ultem, nylon, and high-performance plastics for functional prototypes, tooling, and end-use plastic components."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Engineering polymer 3D printing — PEEK, Ultem, nylon, and high-performance plastics for functional prototypes, tooling, and end-use plastic components."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 250
+suffix = "°C"
+label  = "PEEK Service Temperature"
+
+[[params.stats]]
+count  = 70
+suffix = "MPa"
+label  = "UTS (SLS PA12 Part)"
+
+[[params.stats]]
+count  = 48
+suffix = "hr"
+label  = "Functional Part Turnaround"
+
+[[params.stats]]
+count  = 30
+suffix = "+"
+label  = "Engineering Polymers Available"
+
+
+[[params.applications]]
+title       = "Aerospace Interior Panels"
+description = "Ultem 9085 and PEEK parts certified to FAA flame/smoke/toxicity requirements for aircraft interiors."
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=1920&q=80"
+
+[[params.applications]]
+title       = "Medical Device Components"
+description = "Biocompatible PEEK and USP Class VI plastics for medical device housings and surgical instruments."
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=1920&q=80"
+
+[[params.applications]]
+title       = "Chemical Processing"
+description = "PTFE-loaded nylon and PEEK components for corrosive chemical and high-temperature fluid applications."
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=1920&q=80"
+
+[[params.applications]]
+title       = "Structural Tooling"
+description = "SLS nylon and carbon-fibre-reinforced composite jigs, fixtures, and check gauges for manufacturing."
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🧪"
+title       = "PEEK & Ultem Printing"
+description = "High-performance FDM PEEK and Ultem 9085 printing — aerospace, medical, and chemical process applications."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "SLS Nylon Production"
+description = "PA12 and PA11 SLS parts — isotropic, powder-supported, production-grade surface finish and dimensional accuracy."
+
+[[params.servicesPreview]]
+icon        = "⚙️"
+title       = "Carbon-Fibre Composite"
+description = "PA-CF, PA-GF, and Onyx continuous fibre for lightweight structural polymer parts in FDM and Markforged."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Biocompatible Plastics"
+description = "USP Class VI, ISO 10993 compliant polymer printing for medical device housings, dental appliances, and surgical guides."
+
+
+[[params.services]]
+name        = "PEEK & Ultem Printing"
+description = "High-performance FDM PEEK and Ultem 9085 printing — aerospace, medical, and chemical process applications."
+icon        = "🧪"
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=800&q=80"
+
+[[params.services]]
+name        = "SLS Nylon Production"
+description = "PA12 and PA11 SLS parts — isotropic, powder-supported, production-grade surface finish and dimensional accuracy."
+icon        = "◎"
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=800&q=80"
+
+[[params.services]]
+name        = "Carbon-Fibre Composite"
+description = "PA-CF, PA-GF, and Onyx continuous fibre for lightweight structural polymer parts in FDM and Markforged."
+icon        = "⚙️"
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=800&q=80"
+
+[[params.services]]
+name        = "Biocompatible Plastics"
+description = "USP Class VI, ISO 10993 compliant polymer printing for medical device housings, dental appliances, and surgical guides."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1530973428-5bf2db2e4d71?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintplastic.com"
+url         = "https://3dprintplastic.com"
+description = "Plastics & polymer 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintrubber.com"
+url         = "https://3dprintrubber.com"
+description = "Flexible & rubber 3D printing"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
